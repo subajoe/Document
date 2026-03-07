@@ -1,0 +1,40 @@
+Rest-CRUD Service Its over http,Its not s
+websocket-Bidirectional,Must get responce from user,Cons:live response
+GRPC/RPC-It run specific hardware 
+Event-Driven-instead of direct replies
+Design for workflow
+It react when something happen
+
+
+REST
+****
+GET
+POST-Inserting 1st time
+put-Full upate
+PATCH-Partial update
+DELETE
+Json form , Pydantic as input 
+Response code
+200/201-Sucess
+400-Bad request
+500-Server error
+
+webhook-unidirectional
+Only event trigger on front /backend 
+
+websocket-
+Bidirectional,Must get responce from user,Cons:live response
+
+Key Differences webhook and websocket:
+
+Communication Type: WebSockets → Two-way (client ↔ server) Webhooks → One-way (server → client)
+
+Connection: WebSockets → Persistent TCP connection Webhooks → Stateless HTTP request/response
+
+Latency: WebSockets → Lower, near-instant updates Webhooks → Slightly higher due to HTTP overhead
+
+Complexity: WebSockets → Requires dedicated server setup and connection management Webhooks → Simple endpoint setup
+
+Event-Driven Thinking
+react
+ 
