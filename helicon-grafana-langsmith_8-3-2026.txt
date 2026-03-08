@@ -1,0 +1,97 @@
+Topics:
+Observabilty
+Langsmith Tracing
+Helicone Analytics
+Grafana Dashboards
+
+
+Observabilty tool (Langsmith,langfuse,grafana)
+*****************
+Tracking and monitoring
+
+How to trace
+where have to trace
+how to save
+
+Ex:
+In Chatgpt,Sometime its down-
+Halisinaction
+too many user access
+network issue  
+
+Other Ex :
+Amazon big million sale.
+-System cracking
+
+In tradition devops
+Difficult to tracting system,
+indentifying issue (behavibg ) is diffucut
+how to imporve thr reliabilty /cost
+
+In LLM is overcome this issue
+
+track the token and estimate the cost
+
+Observabilty mostly we cant use in production state
+It is used for root cause anlysis
+AI GATEWAY
+**********
+ It centralizes management by handling
+ API keys, traffic routing, caching, and rate limiting while providing security, 
+observability, and cost tracking
+
+Its does not store any data
+If AI gateway has set as 100 api call ,it wait for after sometime 
+ 
+ex: Chatgpt token limit over we have to wait till the time mentioned
+
+AI Guardrails:
+*************
+Guardrails AI is an open-source Python/JavaScript framework that ensures Large Language Model (LLM) 
+reliability by validating inputs and outputs. It mitigates risks like hallucinations, toxicity, and 
+PII leakage using Guardrails Hub pre-built validators. It supports structural validation (JSON/code),
+ action-based, and semantic checks
+
+
+two type of LLm 
+thinking
+reasoning
+
+
+Langsmith
+*********
+It used for observabality and evalution
+
+Langsmith is not for ML.but it good for Agents tracking 
+It doesnot have AI gateway
+@traceable
+It does not work on GPU
+
+Helicone Analytics
+******************
+Helicone has obsevatbitlity and AI Gsteway
+It act as proxy
+-Zero code Interagration
+support private datacenter
+we want to add url base to connect helicone API
+Support caching
+Helicone protect from malivoius attack it block automatically
+
+Grafana
+*******
+monitoring dashboard for production
+component tracing is good
+like cloud,cluster,etc
+Aggregation metrics- 5 api - latency 
+Docker is need for grafana
+Neruolic
+********
+LAngsmith+grafana
+
+langfuses
+*********
+
+Docker 
+VM expilisitly allocate ram some amount space
+but while running the code it will consume the space after the 
+it will relieve the space
